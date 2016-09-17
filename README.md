@@ -1,8 +1,10 @@
 # ParasutRails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/parasut_rails`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Build Status](https://travis-ci.org/ahtung/parasut_rails.svg?branch=master)](https://travis-ci.org/ahtung/parasut_rails)
+[![Coverage Status](https://coveralls.io/repos/github/ahtung/parasut_rails/badge.svg?branch=master)](https://coveralls.io/github/ahtung/parasut_rails?branch=master)
+[![Gem Version](https://badge.fury.io/rb/parasut_rails.svg)](https://badge.fury.io/rb/parasut_rails)
 
-TODO: Delete this and the text above, and describe your gem
+You can sign up for an parasut account at https://www.parasut.com/
 
 ## Installation
 
@@ -38,4 +40,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
