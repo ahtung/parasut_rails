@@ -1,5 +1,12 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.3.0
+- 2.3.0
 before_install: gem install bundler -v 1.13.0
+deploy:
+  provider: rubygems
+  api_key:
+    secure: fqj8VUY+m7Df14gmrFKmD/SbSHJ/REElO1UwS4qluE1DoEo4GFyvr5mReUN4IWD8uHVQaVS6tH9bh7gcARNl+eeC81wXgl///L9IyA93ezW2TBVSmqf2U+7Nh1cKOwq5rkDoDjnmGMhSYPQl4aZxD4sYEU0rXoZ9KUiW6SpXmQpzyv+2vafwIZ11QUpOozs/k20/MI2y/EKIMRae77yJET5Pm6nWJu6T2LzQttwX4/oVM3/ZuyapVc1ju0rh4Mi1dXdjtqfbunbMVmFzzCRo59Ci/+ME03KCcAe3MjHvtnmrSi9qCUqbCJv/WJlnpBuuPOCQr2rlF5oMcSmaHnahKt7I6Hh5RlTaXCWT5jzwkJ+xcxIqTvIsR/t2gH1y/3t8icWq8EFPRXjcqw+pHu+1rkzGu04hY57eeiEW/ARknPhzkctj6uweclCLUAda0g4bdTDbWoyExdW8qWgG+KnrcQ9vbuUC+5qyLpwCQtnMLdzo8YfutiqYfyIUjBx0JET6WpjFojBwr4Oo8M5ol+1EAJ+ugt2LeJmhqLr3hyp8IeZ8Ewi0gGWvR8slJlVuhvdqaNExVbMTzXrtO9jpV2wAPjMZxNJHXI+xW4+qWVh/205qC+ZzXqwOWws2UTOQ2+3oA9qz1utW/V+1yfYFIrvULkVMHVrYOgJl4xmgq2/MbqY=
+  gem: parasut_rails
+  on:
+    repo: ahtung/parasut_rails
