@@ -6,8 +6,8 @@ require 'parasut_rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "parasut_rails"
   spec.version       = ParasutRails::VERSION
-  spec.authors       = ["Dunya Kirkali"]
-  spec.email         = ["dunyakirkali@gmail.com"]
+  spec.authors       = ['Dunya Kirkali', 'Onur Kucukkecce']
+  spec.email         = ['dunyakirkali@ahtung.co', 'onurkucukkece@ahtung.co']
 
   spec.summary       = %q{Parasut api for rails}
   spec.description   = %q{Parasut api for rails}
