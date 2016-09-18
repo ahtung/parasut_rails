@@ -1,4 +1,4 @@
-require 'parasut_rails'
+require 'parasut'
 require 'rails'
 
 module ParasutRails
