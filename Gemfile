@@ -4,3 +4,6 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'appraisal'
+gem 'coveralls'
+gem 'aruba', '~> 0.14.2'
+gem 'cucumber', '1.3.19'
